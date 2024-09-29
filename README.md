@@ -5,7 +5,7 @@
 In this work, we show that model training quality with limited data can be interpreted from a HT-SR perspective. We analyze the ESD of individual layers and propose to use shape metrics (PL_Alpha_Hill) from these ESDs to quantify the quality of individual layers, and assign different learning rates to different layers based on their PL_Alpha_Hill, namely TempBalance. We show that TempBalance achieves better layer-wise quality alignment that improve low-data training in NLP and SciML tasks.
 
 <p align="center">
-    <img src="./figures/EMNLP2024_Teaser.png"  width="944" height="471">
+    <img src="./figures/EMNLP2024_Teaser.png"  width="755.2" height="376.8">
 </p>
 
 
