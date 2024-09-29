@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+    
+args:
+    filename: 'Advection_beta'
+    dataverse_url: 'https://darus.uni-stuttgart.de'
+    dataset_id: 'doi:10.18419/darus-2986'
+    data_folder: 'data'
