@@ -1,5 +1,7 @@
 # Model Balancing Helps Low-data Training and Fine-tuning [EMNLP 2024 Main Track]
-[Zihang Liu](https://zihanghliu.github.io), [Yuanzhe Hu](https://github.com/HUST-AI-HYZ), [Tianyu Pang](), [Yefan Zhou](https://yefanzhou.github.io/), [Pu Ren](https://paulpuren.github.io/), [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)
+[Zihang Liu](https://zihanghliu.github.io), [Yuanzhe Hu](https://github.com/HUST-AI-HYZ), [Tianyu Pang](), [Yefan Zhou](https://yefanzhou.github.io/), [Pu Ren](https://paulpuren.github.io/), [Yaoqing Yang](https://sites.google.com/site/yangyaoqingcmu/)  
+
+[Paper](https://arxiv.org/abs/2410.12178)
 
 ## Introduction
 In this work, we show that model training quality with limited data can be interpreted from a HT-SR perspective. We analyze the ESD of individual layers and propose to use shape metrics (PL_Alpha_Hill) from these ESDs to quantify the quality of individual layers, and assign different learning rates to different layers based on their PL_Alpha_Hill, namely TempBalance. We show that TempBalance achieves better layer-wise quality alignment that improve low-data training in NLP and SciML tasks.
